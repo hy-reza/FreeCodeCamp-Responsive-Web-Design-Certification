@@ -1,0 +1,35 @@
+<style>
+
+  :root {
+    --orange-color : #FF7F00;
+    --cyan-color : #00FFFF;
+    --raspberry-color : #FF007F;
+    --white-color: #FFFFFF
+  }
+
+  body {
+    background-color: var(--white-color);
+  }
+
+  .orange {
+    background-color: var(--orange-color);
+  }
+
+  .cyan {
+    background-color: var(--cyan-color);
+  }
+
+  .raspberry {
+    background-color: var(--raspberry-color);
+  }
+
+  div {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+  }
+</style>
+
+<div class="orange"></div>
+<div class="cyan"></div>
+<div class="raspberry"></div>
